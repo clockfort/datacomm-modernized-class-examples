@@ -10,11 +10,11 @@
 // This program uses TCP to establish connections with clients and process
 // requests.
 //
-
+using namespace std;
 #include <stdlib.h>
 #include <unistd.h>
-#include <iostream.h>
-#include <strings.h>
+#include <iostream>
+#include <string.h>
 #include <errno.h>
 #include <sys/types.h>
 #include <sys/socket.h>
