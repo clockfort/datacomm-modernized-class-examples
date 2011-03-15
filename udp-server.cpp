@@ -10,12 +10,12 @@
 // This server program receives data from a client program on another
 // machine, and send replies back to the client.
 //
-
+using namespace std;
 #include <stdlib.h>
 #include <unistd.h>
-#include <strings.h>
+#include <string.h>
 #include <errno.h>
-#include <iostream.h>
+#include <iostream>
 #include <sys/types.h>
 #include <sys/socket.h>
 #include <netinet/in.h>

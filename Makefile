@@ -1,5 +1,4 @@
 all: tcp udp
-	@echo "If your CC isn't gcc, things might not work quite right. (They might not work quite right anyway...)"
 
 tcp: tcp-client tcp-server
 udp: udp-client udp-server
