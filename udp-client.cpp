@@ -97,7 +97,6 @@ int main( int ac, char **av ){
 	cin.getline( buf, sizeof( buf ) );
 	while( strlen(buf)!=0 ){
 		int	len;	// message length
-		int	ans;	// answer returned from server
 
 		//
 		// Get the length of the string (plus one for the trailing
