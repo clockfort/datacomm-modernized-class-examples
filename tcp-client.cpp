@@ -12,11 +12,11 @@
 // This program uses TCP to send data to a server program on another machine
 // and read replies from the server.
 //
-
+using namespace std;
 #include <stdlib.h>
 #include <unistd.h>
-#include <iostream.h>
-#include <strings.h>
+#include <iostream>
+#include <string.h>
 #include <errno.h>
 #include <sys/types.h>
 #include <sys/socket.h>
