@@ -1,0 +1,37 @@
+bash-3.2$ ./tcp-project2 4444
+MAIN THREAD - WAITING FOR THE FIRST CONNECTION FROM CLIENT ...
+NEW THREAD CREATED: NO. Entering 1
+MAIN THREAD - WAITING FOR THE NEXT CONNECTION FROM CLIENT ...
+Thread # 1 Client IP: 127.0.0.1, Port: 56918:
+=========================================
+Received 7 bytes ASCII string from the socket
+Command is 1
+Id is 1
+Received 43 bytes ASCII string from the socket
+Command is 0
+Id is 1
+Name is foobar
+Age is 12
+Size of the Map : 1
+Received 43 bytes ASCII string from the socket
+Command is 0
+Id is 9
+Name is barfoo
+Age is 99999999
+Size of the Map : 2
+Received 7 bytes ASCII string from the socket
+Command is 1
+Id is 1
+Name is foobar
+Age is 12
+Received 7 bytes ASCII string from the socket
+Command is 1
+Id is 9
+Name is barfoo
+Age is 99999999
+Received 7 bytes ASCII string from the socket
+Command is 1
+Id is 10
+Exiting Thread # 1 Client IP: 127.0.0.1, Port: 56918: ... client closed the socket=======================
+Total # of threads running at this time is 0
+

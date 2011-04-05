@@ -1,0 +1,34 @@
+bash-3.2$ ./tcp-project1 localhost 4444
+Enter command (0 for Add, 1 for Retrive, 2 to quit):1
+Enter id (integer):0
+ID should be a non-zero integer):Enter id (integer):1
+ID 1 doesnt exists
+Enter command (0 for Add, 1 for Retrive, 2 to quit):0
+Enter id (integer):0
+ID should be a non-zero integer):Enter id (integer):1
+Enter name (up to 32 char):foobar
+Enter age (integer):12
+ID 1 added successfully
+Enter command (0 for Add, 1 for Retrive, 2 to quit):0
+Enter id (integer):barfoo
+ID should be a non-zero integer):Enter id (integer):9^?^?^?
+Enter name (up to 32 char):barfoo
+Enter age (integer):99999999
+ID 9 added successfully
+Enter command (0 for Add, 1 for Retrive, 2 to quit):`^?
+Illegal command entered.
+Enter command (0 for Add, 1 for Retrive, 2 to quit):1
+Enter id (integer):1
+ID: 1
+Name:foobar
+Age: 12
+Enter command (0 for Add, 1 for Retrive, 2 to quit):1  
+Enter id (integer):9
+ID: 9
+Name:barfoo
+Age: 99999999
+Enter command (0 for Add, 1 for Retrive, 2 to quit):1
+Enter id (integer):10
+ID 10 doesnt exists
+Enter command (0 for Add, 1 for Retrive, 2 to quit):2
+bash-3.2$ 
