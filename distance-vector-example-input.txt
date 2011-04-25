@@ -1,0 +1,13 @@
+add node A
+add node B
+add node C
+add node D
+add node E
+add node F
+add line AB 4
+add line AC 1
+add line AD 2
+add line BD 1
+add line BE 2
+add line DF 6
+add line EF 1
